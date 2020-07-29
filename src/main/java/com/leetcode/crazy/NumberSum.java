@@ -1,4 +1,4 @@
-package com.leetcode.start01;
+package com.leetcode.crazy;
 
 import java.util.Map;
 
