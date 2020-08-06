@@ -8,7 +8,7 @@ import java.util.Deque;
  * @date: 2020-07-28 19:49
  * @description:
  */
-public class DeepTree {
+public class MaxDepth {
 
 	/**
 	 * 给定一个二叉树，找出其最大深度。
