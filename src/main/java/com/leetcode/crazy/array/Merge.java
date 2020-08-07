@@ -65,4 +65,23 @@ public class Merge {
 			System.arraycopy(nums2, p2, nums1, p1 + p2, m + n - p1 - p2);
 		}
 	}
+
+	/**
+	 * 双指针从后往前
+	 *
+	 * @param nums1
+	 * @param m
+	 * @param nums2
+	 * @param n
+	 */
+	public void merge3(int[] nums1, int m, int[] nums2, int n) {
+		int p = m + n - 1;
+		int p1 = m - 1;
+		int p2 = n - 1;
+		while (p1 >= 0 && p2 >= 0) {
+			nums1[p--] = nums1[p1] < nums2[p2] ? nums2[p2--] : nums1[p1--];
+		}
+		// 拷贝缺失的，因为从后往前，所以这里要从前往后拷贝，因为已经有顺序
+		System.arraycopy(nums2, 0, nums1, 0, p2 + 1);
+	}
 }
