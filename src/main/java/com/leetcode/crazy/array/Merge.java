@@ -1,7 +1,6 @@
 package com.leetcode.crazy.array;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 /**
  * @author: dengxin.chen
@@ -82,6 +81,7 @@ public class Merge {
 			nums1[p--] = nums1[p1] < nums2[p2] ? nums2[p2--] : nums1[p1--];
 		}
 		// 拷贝缺失的，因为从后往前，所以这里要从前往后拷贝，因为已经有顺序
+		// 这里考虑n>m的情况，因为前面已经按照大小进行放置了
 		System.arraycopy(nums2, 0, nums1, 0, p2 + 1);
 	}
 }
