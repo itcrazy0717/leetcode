@@ -24,6 +24,7 @@ public class Merge {
 	 * nums2 = [2,5,6],       n = 3
 	 * <p>
 	 * 输出: [1,2,2,3,5,6]
+	 * https://leetcode-cn.com/problems/merge-sorted-array/
 	 */
 
 	/**

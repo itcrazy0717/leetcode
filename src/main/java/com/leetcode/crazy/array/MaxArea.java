@@ -9,6 +9,7 @@ public class MaxArea {
 
 	/**
 	 * 盛水最多的容器，有点类似于木桶原理，最小最大
+	 * https://leetcode-cn.com/problems/container-with-most-water/
 	 */
 
 	public static void main(String[] args) {

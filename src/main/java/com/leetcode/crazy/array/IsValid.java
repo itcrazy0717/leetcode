@@ -10,6 +10,11 @@ import java.util.LinkedList;
  */
 public class IsValid {
 
+	/**
+	 * 括号匹配
+	 * https://leetcode-cn.com/problems/valid-parentheses/
+	 */
+
 	public static void main(String[] args) {
 		System.out.println(isValid("([])"));
 	}

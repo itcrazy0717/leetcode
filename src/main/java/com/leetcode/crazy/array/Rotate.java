@@ -16,6 +16,7 @@ public class Rotate {
 	 * 向右旋转 1 步: [7,1,2,3,4,5,6]
 	 * 向右旋转 2 步: [6,7,1,2,3,4,5]
 	 * 向右旋转 3 步: [5,6,7,1,2,3,4]
+	 * https://leetcode-cn.com/problems/rotate-array/
 	 */
 
 	public static void main(String[] args) {
