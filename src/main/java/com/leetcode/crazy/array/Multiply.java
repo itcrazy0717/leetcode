@@ -95,6 +95,7 @@ public class Multiply {
 			// 循环乘数
 			for (int j = num2.length() - 1; j >= 0; j--) {
 				int n2 = num2.charAt(j) - '0';
+				// 计算当前乘积的总和
 				int sum = res[i + j + 1] + n1 * n2;
 				res[i + j + 1] = sum % 10;
 				res[i + j] += sum / 10;
