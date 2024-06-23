@@ -25,14 +25,12 @@ public class NumberSum {
 	 * https://leetcode-cn.com/problems/two-sum/
 	 */
 	public static void main(String[] args) {
-
 		int[] nums = {2, 5, 5, 15};
 		int target = 20;
 		int[] result = twoSum4(nums, target);
 		for (int item : result) {
 			System.out.println(item);
 		}
-
 	}
 
 	/**
@@ -106,5 +104,4 @@ public class NumberSum {
 		}
 		throw new IllegalArgumentException("no one");
 	}
-
 }
